@@ -1,0 +1,11 @@
+# Site settings
+title: Cahah.net
+email: tom@lezotte.net
+description: Landing page for Cahah.net
+baseurl: "" # the subpath of your site, e.g. /blog/
+url: "http://www.cahah.net" # the base hostname & protocol for your site
+twitter_username: tomlezotte
+github_username:  tlezotte
+
+# Build settings
+markdown: kramdown
