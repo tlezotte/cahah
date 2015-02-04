@@ -8,6 +8,12 @@ body
 	background-repeat: no-repeat;
 	background-size: 100%;
 }
+
+.soft
+{
+	opacity: 0.2;
+    filter: alpha(opacity=20);
+}
 				
 A:link {text-decoration: none; color: #FFFFFF;}
 A:visited {text-decoration: none; color: #FFFFFF;}
