@@ -15,5 +15,11 @@ A:hover {text-decoration: underline; color: #000000;}
 .white {color: #FFFFFF;}
 A.white:link {text-decoration: none; color: #FFFFFF;}
 A.white:visited {text-decoration: none; color: #FFFFFF;}
-A.white.white:active {text-decoration: none; color: #FFFFFF;}
+A.white:active {text-decoration: none; color: #FFFFFF;}
 A.white:hover {text-decoration: underline; color: #FFFFFF;}
+
+.cite {color: #FFFFFF;}
+A.cite:link {text-decoration: none; color: #999999;}
+A.cite:visited {text-decoration: none; color: #999999;}
+A.cite:active {text-decoration: none; color: #999999;}
+A.cite:hover {text-decoration: underline; color: #999999;}
