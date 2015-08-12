@@ -9,7 +9,7 @@
     <meta name="format-detection" content="telephone=no">
 
     <!-- Place favicon.ico & apple-touch-icon.png in the root of your domain and delete these references -->
-    <link rel="shortcut icon" href="favicon.ico" />
+    <link rel="shortcut icon" href="{{ "favicon.ico"  | prepend: site.object_store }}" />
 
     <!-- Android related -->
     <meta name="mobile-web-app-capable" content="yes" />
@@ -21,29 +21,29 @@
     <meta name="apple-mobile-web-app-capable" content="yes" />
     <meta name="apple-mobile-web-app-status-bar-style" content="black" />
     <!-- iOS Icon -->
-    <link rel="apple-touch-icon" href="img/ios/apple-touch-icon-57x57.png">
-    <link rel="apple-touch-icon" sizes="76x76" href="img/ios/apple-touch-icon-76x76.png">
-    <link rel="apple-touch-icon" sizes="120x120" href="img/ios/apple-touch-icon-120x120.png">
+    <link rel="apple-touch-icon" href="{{ "img/ios/apple-touch-icon-57x57.png" | prepend: site.object_store }}">
+    <link rel="apple-touch-icon" sizes="76x76" href="{{ "img/ios/apple-touch-icon-76x76.png" | prepend: site.object_store }}">
+    <link rel="apple-touch-icon" sizes="120x120" href="{{ "img/ios/apple-touch-icon-120x120.png" | prepend: site.object_store }}">
     <!-- Startup Image for iPhone 3GS and iPod Touch 320x460 -->
-    <link rel="apple-touch-startup-image" media="(max-device-width: 480px) and not (-webkit-min-device-pixel-ratio: 2)" href="img/ios/apple-touch-startup-320x460.png" />
+    <link rel="apple-touch-startup-image" media="(max-device-width: 480px) and not (-webkit-min-device-pixel-ratio: 2)" href="{{ "img/ios/apple-touch-startup-320x460.png" | prepend: site.object_store }}" />
     <!-- Startup Image for iPhone retina display 640x920 -->
-    <link rel="apple-touch-startup-image" media="(max-device-width: 480px) and (-webkit-min-device-pixel-ratio: 2)" href="img/ios/apple-touch-startup-640x920.png" />
+    <link rel="apple-touch-startup-image" media="(max-device-width: 480px) and (-webkit-min-device-pixel-ratio: 2)" href="{{ "img/ios/apple-touch-startup-640x920.png" | prepend: site.object_store }}" />
     <!-- Startup Image for iPad portrait 768x1004 -->
-    <link rel="apple-touch-startup-image" media="(orientation: portrait)" href="img/ios/apple-touch-startup-768x1004.png" />
+    <link rel="apple-touch-startup-image" media="(orientation: portrait)" href="{{ "img/ios/apple-touch-startup-768x1004.png" | prepend: site.object_store }}" />
     <!-- Startup Image for iPad landscape 1024x748 -->
-    <link rel="apple-touch-startup-image" media="(orientation: landscape)" href="img/ios/apple-touch-startup-1024x748.png" />
+    <link rel="apple-touch-startup-image" media="(orientation: landscape)" href="{{ "img/ios/apple-touch-startup-1024x748.png" | prepend: site.object_store }}" />
 
     <!-- Latest compiled and minified CSS -->
     <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.5/css/bootstrap.min.css">
     <!-- Optional theme -->
     <!-- <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css"> -->
     <!-- Bootstrap theme by bootswatch.com - flatly -->
-    <link rel="stylesheet" href="css/twbs-flatly.min.css">
+    <link rel="stylesheet" href="{{ "css/twbs-flatly.min.css" | prepend: site.object_store }}">
     <!-- Google Fonts -->
     <!-- <link href='http://fonts.googleapis.com/css?family=Oswald' rel='stylesheet' type='text/css'> -->
     <!-- font awesome -->
     <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/font-awesome/4.4.0/css/font-awesome.min.css">
 
-    <link rel="stylesheet" href="{{ "css/main.css" | prepend: site.baseurl }}">
+    <link rel="stylesheet" href="{{ "css/main.css" | prepend: site.object_store }}">
     <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
 </head>
